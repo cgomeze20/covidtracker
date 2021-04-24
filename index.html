@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8d1dee9237.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Casos Registrados en <span id="country"></span></h1>
+
+    <select class="locality" id="locality-dropdown" name="locality">
+        <option value=""></option>
+    </select>
+
+    <!-- <input type="text" name="getColors" list="colores">
+    <datalist id="colores">
+        <option value="Red">Red</option>
+        <option value="Red">Red</option>
+        <option value="Red">Red</option>
+        <option value="Red">Red</option>
+        <option value="Red">Red</option>
+    </datalist> -->
+   
+    <div class="contenedor">
+
+
+        <div class="card" id="card1">
+            <i class="fa fa-tachometer"></i>
+            <p>Casos Activos
+                <span id="active"></span>
+            </p>
+        </div>
+
+        <div class="card" id="card2">
+            <i class="fa fa-calculator"></i>
+            <p>Total Casos Activos
+                <span id="cases"></span>
+            </p>
+        </div>
+
+        <div class="card" id="card3">
+            <i class="fa fa-street-view"></i>
+            <p>Deaths
+                <span id="deaths"></span>
+            </p>
+        </div>
+
+        <div class="card" id="card4">
+            <i class="fa fa-close"></i>
+            <p>Total test
+                <span id="tests"></span>
+            </p>
+        </div>
+
+        <div class="card" id="card5">
+            <i class="fa fa-user-plus"></i>
+            <p>Recovered Cases
+                <span id="recovered"></span>
+            </p>
+        </div>
+
+        <div class="card" id="card6">
+            <i class="fa fa-wheelchair-alt"></i>
+            <p>Critical
+                <span id="critical"></span>
+            </p>
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
